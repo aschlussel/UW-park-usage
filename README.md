@@ -1,2 +1,6 @@
 # UW-park-usage
-Our goal with this project was to tell the story of how COVID-19 impacted urban park usage at one location, Seward Park in Seattle.  However, these methods could be used to answer any number of questions around park usage.
+Our methods center around data obtained from SafeGraph, a company that provides human movement data.  SafeGraph’s data is aggregated cell phone movement data, meaning that while it does not identify individual mobile devices, it can tell you things such as how many people who live in a given area visited a specific location, how long people tend to stay at a specific location, and how many people visit at certain hours of the day or days of the week.  For a more detailed idea of what specific data SafeGraph provides, see SafeGraph’s Places Schema page.
+
+SafeGraph provides weekly data for the most recent three months, and monthly data for January 2018 through three months ago.  We used monthly data for this project - what SafeGraph calls “Monthly Places Patterns.”
+
+It is important to remember and acknowledge that SafeGraph data represents mobile devices, not people.  People will not be represented by this data if they do not carry a mobile device, or if their privacy settings prevent their data from being shared with data companies like SafeGraph.  SafeGraph’s data represents a small fraction of people and, as a result, may be biased and/or suffer from sampling error, particularly at the census block level and in other small scale studies.  The data also may not represent all demographics equally.
