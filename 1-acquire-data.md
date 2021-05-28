@@ -28,3 +28,7 @@ The rest of the notebook should run without problems.  In cell 6, make sure to i
 Cell 7 creates a CSV with your data.  You can find the CSV under data/raw/, and right-click it to download it.
 
 If your data acquisition was successful, you should have (at least) one row for each month of data that you requested.  If a month that you requested is missing from the csv, that likely means that SafeGraph does not have data for that month available.  It also seems that you cannot request monthly patterns data for anything within the most recent three full months, as this time period is covered by the weekly patterns.
+
+What does all of this data mean?  You can find more information on these variables in the SafeGraph documentation pages.  The [Places Schema page](https://docs.safegraph.com/v4.0/docs/places-schema#section-patterns) is particularly helpful.
+
+Sometimes the data may include duplicate entries for each month.  We never succeeded in finding out the reason for these duplicates, and we’re not sure if this is normal or not.  You may choose to deal with duplicate data by using the maximum values for each month, or consistently using the more complete set of data for each month (we often found that one set of duplicates would be missing several variables).
