@@ -1,4 +1,4 @@
-The following are references for park information, such as park size, facilities and COVID-19 policies, for the paper "Analyzing changes in visits to urban green spaces (UGS) due to combined factors of COVID-19 and municipal growth." The selected parks are the ten fastest- and ten slowest-growing large cities according to WalletHub's economic growth index: https://wallethub.com/edu/fastest-growing-cities/7010
+The following are references for park information, such as park size, facilities and COVID-19 policies, for the paper "Analyzing changes in visits to urban green spaces (UGS) due to combined factors of COVID-19 and municipal growth." The selected cities are the ten fastest- and ten slowest-growing large cities according to WalletHub's economic growth index: https://wallethub.com/edu/fastest-growing-cities/7010
 
 ---
 
